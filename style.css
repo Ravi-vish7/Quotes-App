@@ -100,6 +100,7 @@ button {
 
 @media (max-width:768px ){
     .container{
+        min-height: 80vh;       
         padding: 20px 50px;
     }
     nav{
