@@ -8,7 +8,21 @@
 body{
     background-image: url("https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     background-position: center;
-    background-size: cover;    
+    background-size: cover;   
+    background-repeat: no-repeat; 
+}
+.nav2{
+    height: 60px;
+    background: rgba( 255, 255, 255, 0.3 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3px );
+-webkit-backdrop-filter: blur( 3px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.nav2 h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
 }
 nav{
     height: 50px;
@@ -79,4 +93,15 @@ button {
     cursor: pointer;
     background-color: #fffffffc;
  
+}
+
+
+@media (max-width:768px){
+    .container{
+        padding: 10px 100px;
+    }
+    nav{
+        display: none;
+    }
+    
 }
