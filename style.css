@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url("https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center;
+    background-size: cover;    
+}
+nav{
+    height: 50px;
+    padding: 30px 60px;
+    background: rgba( 255, 255, 255, 0.3 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3px );
+-webkit-backdrop-filter: blur( 3px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+nav ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+}
+ul li {
+    cursor: pointer;
+}
+#logo{
+    font-size: 50px;
+    color: #000000;
+    font-weight: 1000;
+    
+}
+
+.container{
+    min-height: 100vh;
+    /* background-image: url("https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center;
+    background-size: cover; */
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width:450px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    position: relative;
+    background: rgba( 255, 255, 255, 0.3 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3px );
+-webkit-backdrop-filter: blur( 3px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.card h1{
+    padding: 10px;
+}
+.card p{
+    padding: 10px;
+}
+button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border:none;
+    position:absolute;
+    bottom: -10px;
+    right: -10px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #fffffffc;
+ 
+}
